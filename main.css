@@ -52,7 +52,7 @@ img {
 	margin-bottom:10px;
 	padding: 4px 10px 5px 10px;
 	line-height: 1.35em;
-	}
+}
 .pages {
 	width: 24%;
 	height:62px;
@@ -93,4 +93,24 @@ img {
 	text-decoration:none;
 	color:#999999;
 	font-size:xx-small;
+}
+.aboutMe {
+	background-color: #d09a2d;
+	border: #000 thin solid;
+	float:left;
+	margin-bottom:10px;
+	padding: 4px 10px 5px 10px;
+	line-height: 1.35em;
+}
+.travel {
+	float:right;
+	margin: 5px;
+	width:20%;
+}
+.travel img {
+	border: #000 thin solid;
+}
+.travel p{
+	font-size:10px;
+	margin-top: 0;
 }

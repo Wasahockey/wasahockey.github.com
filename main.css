@@ -77,14 +77,14 @@ img {
 	}
 #copyright {
 	margin-top: 30px;
-	float: right;
-	width:42%;
 	color:#999999;
 	font-size:xx-small;
-	text-align:right;
+	padding:30px;
+	text-align:center;
+	clear:both;
 }
 #copyright img {
-	width:20%;
+	width:10%;
 }
 #copyright a {
 	text-decoration:none;

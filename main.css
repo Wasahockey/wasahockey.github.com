@@ -9,6 +9,10 @@ body {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:14px;
 	}
+a {
+	color: #446365;
+	text-decoration:none;
+}
 h1 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size:24px;
@@ -30,6 +34,7 @@ h1 {
 }
 #content {
 	clear:both;
+	min-width: 700px;
 	background-color: #000000;
 }
 img {
@@ -39,10 +44,11 @@ img {
 	background-color: #d09a2d;
 	border: #000 thin solid;
 	width:71%;
-	height: 248px;
+	min-height:248px;
 	float:left;
 	margin-bottom:10px;
-	padding: 5px 10px 5px 10px;
+	padding: 4px 10px 5px 10px;
+	line-height: 1.35em;
 	}
 .pages {
 	width: 24%;
@@ -69,3 +75,19 @@ img {
 	text-decoration:none;
 	color:#d09a2d;
 	}
+#copyright {
+	margin-top: 30px;
+	float: right;
+	width:42%;
+	color:#999999;
+	font-size:xx-small;
+	text-align:right;
+}
+#copyright img {
+	width:20%;
+}
+#copyright a {
+	text-decoration:none;
+	color:#999999;
+	font-size:xx-small;
+}

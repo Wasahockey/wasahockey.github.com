@@ -1,0 +1,36 @@
+/*
+ * Default styles
+ */
+@media screen {
+html {
+	background-image:url(arches.png);
+	}
+}
+
+/*
+ * 500px and wider
+ */
+@media screen and (min-width: 500px) {
+
+
+
+}
+
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+/*
+ * Print styles
+ */
+@media print {
+
+
+
+}

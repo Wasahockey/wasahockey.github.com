@@ -58,15 +58,25 @@ p {
 }
 .start{
 	text-indent:20px;
-}	
-	
-	
-	
-	
-	
-	
-	
-	
+}		
+img {
+	border:thin #CC3333 solid;
+	width: 80%;
+	}
+figure {
+    text-align: center;
+    margin: 10px auto;
+
+}
+figcaption {
+	font-family: 'ArtifikaMedium';
+	font-size:12px;
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+
+
 	
 }
 

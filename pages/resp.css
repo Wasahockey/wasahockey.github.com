@@ -23,6 +23,11 @@ header {
 	padding:10px;
 	font-size:18px;
 	}
+h2 {
+	font-family: 'ArtifikaMedium';
+	color:#CC3333;
+	text-align:center
+}
 #content {
 	background-color: #CCCCCC;
 	padding: 1px 7px 10px 7px;
@@ -43,6 +48,8 @@ nav li{
 nav a {
 	text-decoration:none;
 	color:#FFFFFF;
+}
+#story{
 }
 p {
 	font-family: Arial, Helvetica, sans-serif;
@@ -66,7 +73,6 @@ img {
 figure {
     text-align: center;
     margin: 10px auto;
-
 }
 figcaption {
 	font-family: 'ArtifikaMedium';
@@ -74,12 +80,54 @@ figcaption {
 	padding-left: 10px;
 	padding-right:10px;
 }
-
-
-
-	
+.return {
+	font-family: 'ArtifikaMedium';
 }
-
+.return ul{
+	padding:0px;
+	list-style:none;
+}
+.return li{
+	text-align: center;
+    margin: 10px auto;
+}
+.return a {
+	text-decoration:none;
+	color:text-align: center;
+    margin: 10px auto;
+}
+.return a:visited {
+	color: #CC9900;
+	}
+hr {
+	noshade:noshade;
+	width: 80%;
+}
+#bio {
+}
+#bib {
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+#bib a{
+color:#CC0000;
+}
+#bib ul {
+padding-right:15px;
+}
+#bib li {
+padding-top:3px;list-style-type: square; 
+}
+#bib li li {
+padding: 0px 0px 1px 5px;
+list-style-type: circle;
+}
+#end {
+	clear:both;
+	text-align:center;
+	font-size:12px;
+}
+}
 /*
  * 500px and wider
  */

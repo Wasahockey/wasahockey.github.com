@@ -125,6 +125,8 @@ list-style-type: circle;
 #end {
 	clear:both;
 	text-align:center;
+}
+#end p{
 	font-size:12px;
 }
 }
@@ -132,15 +134,127 @@ list-style-type: circle;
  * 500px and wider
  */
 @media screen and (min-width: 500px) {
-
-
+body{
+	margin: 25px;
 }
-
+header {
+	font-family: 'ArtifikaMedium';
+	background-color: #CC3333;
+	padding:15px;
+	font-size: 24px;
+	}
+#content {
+	background-color: #CCCCCC;
+	padding: 1px 7px 10px 7px;
+	margin-top:25px;
+}
+nav {
+	font-family: 'ArtifikaMedium';
+}
+nav ul{
+	list-style:none;
+	padding:0px;
+}
+nav li{
+	background-color:#CC3333;
+	float:left;
+	padding:6px;
+	width:30%;
+	margin:5px 5px 5px 5px;
+}
+nav a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#story{
+clear:both;
+padding:3px 10px 3px 10px;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.3em
+}
+.letter:first-letter  {
+	font-family: 'ArtifikaMedium';
+	font-size: 50px; 
+	color:#CC3333;
+	float: left; 
+	margin: 5px 8px 0 0; 
+	line-height: 0.8;
+}
+.start{
+	text-indent:40px;
+}	
+img {
+	border:thin #CC3333 solid;
+	width: 60%;
+	}
+figure {
+	float:left;
+	width:43%;
+	clear:both;
+}
+figcaption {
+	font-family: 'ArtifikaMedium';
+	font-size:12px;
+	padding-left: 15px;
+	padding-right:15px;
+}
+.return {
+	font-family: 'ArtifikaMedium';
+	clear:both;
+}
+.return ul{
+	padding:0px;
+	list-style:none;
+}
+.return li{
+	text-align: center;
+    margin: 10px auto;
+}
+.return a {
+	text-decoration:none;
+	color:text-align: center;
+    margin: 10px auto;
+}
+.return a:visited {
+	color: #CC9900;
+	}
+hr {
+	noshade:noshade;
+	width: 80%;
+}
+#bio {
+}
+#bib {
+font-family: Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+#bib a{
+color:#CC0000;
+}
+#bib ul {
+}
+#bib li {
+padding-top:3px;
+list-style-type: square; 
+}
+#bib li li {
+list-style-type: circle;
+}
+#end {
+	clear:both;
+	text-align:center;
+}
+#end p{
+font-size:10px;
+}
+}
 /*
  * 768px and wider
  */
 @media screen and (min-width: 768px) {
-
 
 
 }

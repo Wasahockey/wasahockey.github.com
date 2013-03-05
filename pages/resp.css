@@ -264,11 +264,55 @@ list-style-type: circle;
 #end p{
 font-size:10px;
 }
+blockquote a{
+color:#CC0000;
+text-decoration:none;
+}
+blockquote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	text-align:justify;
+	margin-top: 15px;
+	padding:10px 5px;
+	border-top:#CC0033 dotted medium ;
+	border-bottom:#CC0033 dotted medium;
+	}	
+
+	
 }
 /*
  * 768px and wider
  */
 @media screen and (min-width: 768px) {
+body{
+margin: 25px 43px;
+}
+header {
+	font-family: 'ArtifikaMedium';
+	background-color: #CC3333;
+	padding:20px;
+	font-size: 24px;
+	}
+#content {
+	background-color: #CCCCCC;
+	padding: 1px 15px 10px 15px;
+	margin-top:25px;
+}
+nav li{
+	background-color:#CC3333;
+	padding:6px;
+	width:20%;
+	text-align:center;
+}
+#story{
+width:65%;
+padding:3px 10px 3px 10px;
+}
+#bio {
+width: 25%;
+float:right;
+}
 
 
 }

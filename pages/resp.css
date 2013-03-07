@@ -26,7 +26,7 @@ header {
 h2 {
 	font-family: 'ArtifikaMedium';
 	color:#CC3333;
-	text-align:center
+	text-align:center;
 }
 #content {
 	background-color: #CCCCCC;
@@ -48,8 +48,6 @@ nav li{
 nav a {
 	text-decoration:none;
 	color:#FFFFFF;
-}
-#story{
 }
 p {
 	font-family: Arial, Helvetica, sans-serif;
@@ -117,8 +115,6 @@ hr {
 	noshade:noshade;
 	width: 80%;
 }
-#bio {
-}
 #bib {
 font-family: Arial, Helvetica, sans-serif;
 font-size:10px;
@@ -149,144 +145,8 @@ list-style-type: circle;
  */
 @media screen and (min-width: 500px) {
 body{
-	margin: 25px;
-}
-header {
-	font-family: 'ArtifikaMedium';
-	background-color: #CC3333;
-	padding:15px;
-	font-size: 24px;
-	}
-#content {
-	background-color: #CCCCCC;
-	padding: 1px 7px 10px 7px;
-	margin-top:25px;
-}
-nav {
-	font-family: 'ArtifikaMedium';
-}
-nav ul{
-	list-style:none;
-	padding:0px;
-}
-nav li{
-	background-color:#CC3333;
-	float:left;
-	padding:6px;
-	width:30%;
-	margin:5px 5px 5px 5px;
-}
-nav a {
-	text-decoration:none;
-	color:#FFFFFF;
-}
-#story{
-clear:both;
-padding:3px 10px 3px 10px;
-}
-p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:14px;
-	line-height:1.3em
-}
-.letter:first-letter  {
-	font-family: 'ArtifikaMedium';
-	font-size: 50px; 
-	color:#CC3333;
-	float: left; 
-	margin: 5px 8px 0 0; 
-	line-height: 0.8;
-}
-.start{
-	text-indent:40px;
-}	
-img {
-	border:thin #CC3333 solid;
-	width: 60%;
-	}
-figure {
-	float:left;
-	width:43%;
-	clear:both;
-}
-figcaption {
-	font-family: 'ArtifikaMedium';
-	font-size:12px;
-	padding-left: 15px;
-	padding-right:15px;
-}
-.return {
-	font-family: 'ArtifikaMedium';
-	clear:both;
-}
-.return ul{
-	padding:0px;
-	list-style:none;
-}
-.return li{
-	text-align: center;
-    margin: 10px auto;
-}
-.return a {
-	text-decoration:none;
-	color:text-align: center;
-    margin: 10px auto;
-}
-.return a:visited {
-	color: #CC9900;
-	}
-hr {
-	noshade:noshade;
-	width: 80%;
-}
-#bio {
-}
-#bib {
-font-family: Arial, Helvetica, sans-serif;
-font-size:11px;
-}
-#bib a{
-color:#CC0000;
-}
-#bib ul {
-}
-#bib li {
-padding-top:3px;
-list-style-type: square; 
-}
-#bib li li {
-list-style-type: circle;
-}
-#end {
-	clear:both;
-	text-align:center;
-}
-#end p{
-font-size:10px;
-}
-blockquote a{
-color:#CC0000;
-text-decoration:none;
-}
-blockquote {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:12px;
-	font-style:italic;
-	text-align:justify;
-	margin-top: 15px;
-	padding:10px 5px;
-	border-top:#CC0033 dotted medium ;
-	border-bottom:#CC0033 dotted medium;
-	}	
-
-	
-}
-/*
- * 768px and wider
- */
-@media screen and (min-width: 768px) {
-body{
-margin: 25px 43px;
+	margin: 10px;
+	padding: 5px 25px;
 }
 header {
 	font-family: 'ArtifikaMedium';
@@ -295,34 +155,138 @@ header {
 	font-size: 24px;
 	}
 #content {
-	background-color: #CCCCCC;
-	padding: 1px 15px 10px 15px;
-	margin-top:25px;
+	padding: 1px 20px 10px 20px;
+	margin-top:20px;
 }
-nav li{
-	background-color:#CC3333;
-	padding:6px;
-	width:20%;
+nav {
 	text-align:center;
 }
+nav li{
+	padding:10px;
+	margin:5px 10px 5px 10px;
+	width:25%;
+	float:left;
+}
 #story{
-width:65%;
-padding:3px 10px 3px 10px;
+clear:both;
+padding-top:5px;
+line-height: 1.3em;
+}
+blockquote {
+	padding:10px 15px;
+	}
+.letter:first-letter  {
+	font-size: 75px;  
+	margin: 7px 8px 0 0; 
+}
+.start{
+	text-indent:40px;
+}		
+img {
+	width: 80%;
+	}
+figure {
+	float:left;
+	display:block;
+	clear:both;
+	width:50%;
+}
+figcaption {
+	padding-left: 50px;
+	padding-right:50px;
 }
 #bio {
-width: 25%;
-float:right;
+line-height: 1.2em;
 }
-
-
+#bib {
+font-size:11px;
 }
-
-
+}
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
+body{
+	margin: 10px;
+	padding: 10px 30px;
+}
+#content {
+	padding: 1px 15px 10px 15px;
+}
+nav li{
+	font-size:18px;
+}
+img {
+	width: 70%;
+	}
+figure {
+	width:45%;
+}
+#bio {
+padding: 0px 10px;
+}
+}
 /*
  * Print styles
  */
-@media print {
-
-
-
+@media screen and (min-width: 960px)  {
+body{
+	margin: 10px;
+	padding: 20px 90px;
+}
+header {
+	font-family: 'ArtifikaMedium';
+	background-color: #CC3333;
+	padding:25px 10px;
+	font-size: 24px;
+	}
+h2 {
+	font-family: 'ArtifikaMedium';
+	color:#CC3333;
+	text-align:center;
+	line-height: 1.3em;
+}
+#content {
+	padding: 1px 20px 10px 20px;
+}
+nav li{
+padding:15px 10px 10px 10px;
+}
+#story{
+width:55%;
+float:left;
+margin-right:15px;
+margin-bottom:20px;
+}
+blockquote {
+	padding:10px 5px;
+	}
+.start{
+	text-indent:20px;
+}		
+figure {
+width:60%;
+}
+figcaption {
+	padding-left: 10px;
+	padding-right:10px;
+}
+.return {
+display:none;
+}
+#bio {
+width: 40%;
+float:right;
+}
+#bio img {
+width: 90%;
+}
+#bio figure {
+float:none;
+}
+#bib {
+padding-top: 10px;
+clear:both;
+border-top:#CC0033 thin solid ;
+}
 }

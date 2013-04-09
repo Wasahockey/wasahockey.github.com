@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:75%;
+	margin:auto;
+	font-family: 'Noto Sans', sans-serif;
+}
+header {
+height:200px;
+background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.github.com/Mangravite/images/JHmute.gif);
+}
+#navigation {
+	margin:0px;
+	background-color: rgba(39,66,87,0.6);
+	height:30px;
+	width:75%;
+}
+#navigation a {
+	text-decoration:none;
+	color:#CCCC99;
+}
+#navigation ul {
+	margin:0;
+	padding:0;
+}
+#navigation li {
+	list-style-type:none;
+	display:inline;
+	padding-left:10px;
+	padding-right:10px;
+}
+.locate {
+	background-color: rgb(39,66,87);
+}

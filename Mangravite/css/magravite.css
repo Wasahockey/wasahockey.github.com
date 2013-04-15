@@ -9,10 +9,12 @@ header {
 height:200px;
 background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.github.com/Mangravite/images/JHmute.gif);
 }
+/* main navigation bar */
 #navigation {
 	margin:0px;
+	padding-top:6px;
 	background-color: rgba(39,66,87,0.6);
-	height:30px;
+	height:27px;
 	width:75%;
 }
 #navigation a {
@@ -31,4 +33,6 @@ background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.gith
 }
 .locate {
 	background-color: rgb(39,66,87);
+	padding: 6px 10px 5px 10px;
+	font-weight:bold;
 }

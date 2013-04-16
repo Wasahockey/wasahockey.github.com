@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	width:75%;
+	width:800px;
 	margin:auto;
 	font-family: 'Noto Sans', sans-serif;
 }
 header {
 height:200px;
-background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.github.com/Mangravite/images/JHmute.gif);
+background-image:url(images/JHmute.gif);
 }
 /* main navigation bar */
 #navigation {

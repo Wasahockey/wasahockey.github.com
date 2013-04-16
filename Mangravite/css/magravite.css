@@ -16,6 +16,7 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 	background-color: rgba(39,66,87,0.6);
 	height:27px;
 	width:75%;
+	text-transform:uppercase;
 }
 #navigation a {
 	text-decoration:none;
@@ -28,11 +29,39 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 #navigation li {
 	list-style-type:none;
 	display:inline;
-	padding-left:10px;
-	padding-right:10px;
+	padding-right:15px;
 }
 .locate {
 	background-color: rgb(39,66,87);
 	padding: 6px 10px 5px 10px;
 	font-weight:bold;
+}
+#navigation a.locate {
+	color: #FFCC33;
+}
+/* second level of navigation */
+#secondnav {
+	margin:0px;
+	height:27px;
+	text-transform:uppercase;
+	padding-left:8px;
+	padding-top:5px;
+}
+#secondnav a {
+	text-decoration:none;
+	color:rgba(39,66,87,0.6);
+}
+#secondnav ul {
+	margin:0;
+	padding:0;
+}
+#secondnav li {
+	list-style-type:none;
+	display:inline;
+	padding-right:10px;
+}
+#secondnav a.city {
+	font-size: 30px;
+	color:#ffcc33;
+	vertical-align:top;
 }

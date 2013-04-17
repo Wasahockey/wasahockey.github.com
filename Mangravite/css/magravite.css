@@ -67,7 +67,7 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 }
 /* body background */
 #blue{
-	background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.github.com/Mangravite/images/tile.gif);
+	background-image:url(<link href="http://wasahockey.github.io/Mangravite/images/tile.gif">);
 	background-color:#274257;
 	background-repeat:repeat-x;
 	margin-top:30px;

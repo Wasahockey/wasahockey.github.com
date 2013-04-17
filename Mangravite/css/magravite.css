@@ -97,6 +97,12 @@ font-weight:normal;
 color:#274257;
 padding-top:0;
 }
+h3 {
+text-transform:uppercase;
+font-weight:normal;
+color:#274257;
+padding-top:0;
+}
 /* footer */
 #copyright {
 	background-color:#8F6048;

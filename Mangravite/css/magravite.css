@@ -3,8 +3,8 @@
 body {
 	width:800px;
 	margin:auto;
-	font-family: 'Noto Sans', sans-serif;
-}
+	font-family: 'Roboto', sans-serif;
+	}
 header {
 height:200px;
 background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
@@ -13,7 +13,7 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 #navigation {
 	margin:0px;
 	padding-top:6px;
-	background-color: rgba(39,66,87,0.6);
+	background-color: #7d8e9a;
 	height:27px;
 	width:75%;
 	text-transform:uppercase;
@@ -32,7 +32,7 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 	padding-right:15px;
 }
 .locate {
-	background-color: rgb(39,66,87);
+	background-color: #274257;
 	padding: 6px 10px 5px 10px;
 	font-weight:bold;
 }
@@ -49,7 +49,7 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 }
 #secondnav a {
 	text-decoration:none;
-	color:rgba(39,66,87,0.6);
+	color:#7d8e9a;
 }
 #secondnav ul {
 	margin:0;
@@ -64,4 +64,48 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 	font-size: 30px;
 	color:#ffcc33;
 	vertical-align:top;
+}
+/* body background */
+#blue{
+	background-image:url(file:///C|/Users/Wasa%20DZ/Documents/GitHub/wasahockey.github.com/Mangravite/images/tile.gif);
+	background-color:#274257;
+	background-repeat:repeat-x;
+	margin-top:30px;
+}
+.content {
+	width: 65%;
+	background-color:#FFFFFF;
+	margin-left:240px;
+	padding-left:10px;
+	clear:both;
+}
+/* copy */
+p {
+font-family: 'Noto Sans', sans-serif;
+line-height:1.5em;
+font-size:14px;
+}
+h1 {
+text-transform:uppercase;
+font-weight:500;
+color:#ffcc33;
+padding-top:0;
+}
+h2 {
+text-transform:uppercase;
+font-weight:normal;
+color:#274257;
+padding-top:0;
+}
+/* footer */
+#copyright {
+	background-color:#8F6048;
+	height:100px;
+	clear:both;
+}
+#copyright p{
+font-size:12px;
+color:#CCCC99;
+text-align:center;
+padding:15px;
 }

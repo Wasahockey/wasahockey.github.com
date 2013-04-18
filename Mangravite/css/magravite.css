@@ -1,26 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	width:800px;
+	width:900px;
 	margin:auto;
 	font-family: 'Roboto', sans-serif;
 	}
 header {
-height:200px;
-background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
+	height:170px;
+	background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 }
 /* main navigation bar */
 #navigation {
 	margin:0px;
 	padding-top:6px;
 	background-color: #7d8e9a;
-	height:27px;
+	height:26px;
 	width:75%;
 	text-transform:uppercase;
+	border-bottom: thin solid #8F6048;
 }
 #navigation a {
 	text-decoration:none;
 	color:#CCCC99;
+}
+#navigation a.locate {
+	color: #FFCC33;
 }
 #navigation ul {
 	margin:0;
@@ -35,9 +39,6 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 	background-color: #274257;
 	padding: 6px 10px 5px 10px;
 	font-weight:bold;
-}
-#navigation a.locate {
-	color: #FFCC33;
 }
 /* second level of navigation */
 #secondnav {
@@ -67,17 +68,32 @@ background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
 }
 /* body background */
 #blue{
-background-image:url(http://wasahockey.github.io/Mangravite/images/tile.gif);
-	background-color:#274257;
-	background-repeat:repeat-x;
-	margin-top:30px;
+	position: absolute;
+   	z-index:-1;
+	margin-top:15px;
+	width:900px;
+	background:#274257 url(http://wasahockey.github.io/Mangravite/images/tile.gif) repeat-x;
 }
-.content {
+/* text boxes */
+#content {
 	width: 65%;
 	background-color:#FFFFFF;
-	margin-left:240px;
-	padding-left:10px;
-	clear:both;
+	float:right;
+	margin-right:10px;
+}
+#contentSub {
+	width: 60%;
+	background-color:#FFFFFF;
+	float:right;
+	margin-right:20px;
+	padding: 10px;
+}
+/*image box*/
+.photos {
+width:30%;
+float:left;
+margin-left:20px;
+margin-top: 60px;
 }
 /* copy */
 p {
@@ -85,11 +101,16 @@ font-family: 'Noto Sans', sans-serif;
 line-height:1.5em;
 font-size:14px;
 }
+img {
+width:90%;
+border:thin solid #FFCC33;
+}
 h1 {
 text-transform:uppercase;
 font-weight:500;
 color:#ffcc33;
 padding-top:0;
+margin:0;
 }
 h2 {
 text-transform:uppercase;
@@ -101,7 +122,29 @@ h3 {
 text-transform:uppercase;
 font-weight:normal;
 color:#274257;
-padding-top:0;
+font-weight:300;
+margin:0;
+}
+#contentSub ul{
+font-size:14px;
+line-height:2em;
+padding-left:10px;
+list-style:none;
+}
+/*figure*/
+figure {
+margin:0;
+}
+figcaption {
+color:#CCCC99;
+text-align:center;
+}
+figcaption p{
+font-size:10px;
+}
+figcaption a{
+text-decoration:none;
+color:#FFCC33;
 }
 /* footer */
 #copyright {

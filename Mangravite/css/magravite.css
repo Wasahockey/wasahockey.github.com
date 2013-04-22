@@ -82,6 +82,7 @@ header {
 	background-color:#FFFFFF;
 	float:right;
 	margin-right:10px;
+	padding:10px;
 }
 #contentSub {
 	width: 60%;
@@ -150,8 +151,6 @@ color:#FFCC33;
 }
 /* footer */
 #footer {
-}
-footer {
 	background-color:#8F6048;
 	height:100px;
 }

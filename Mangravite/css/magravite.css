@@ -8,7 +8,13 @@ body {
 	}
 header {
 	height:170px;
-	background-image: url(http://wasahockey.github.io/Mangravite/images/JHmute.gif)
+}
+header img {
+float:right;
+width:50%;
+border:0;
+padding-right:15px;
+margin-top: 52px;
 }
 /* main navigation bar */
 #navigation {
@@ -95,6 +101,12 @@ header {
 /*image box*/
 .photos {
 	width:30%;
+	float:left;
+	margin-left:20px;
+	margin-top: 60px;
+}
+.photosmain {
+	width:20%;
 	float:left;
 	margin-left:20px;
 	margin-top: 60px;

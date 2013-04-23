@@ -3,6 +3,7 @@
 body {
 	width:900px;
 	margin:auto;
+	height:100%;
 	font-family: 'Roboto', sans-serif;
 	}
 header {
@@ -17,7 +18,7 @@ header {
 	height:26px;
 	width:75%;
 	text-transform:uppercase;
-	border-bottom: thin solid #8F6048;
+	border-bottom: 2px solid #8F6048;
 }
 #navigation a {
 	text-decoration:none;
@@ -153,6 +154,9 @@ color:#FFCC33;
 #footer {
 	background-color:#8F6048;
 	height:100px;
+	position: fixed;
+	bottom: 0;
+	clear:both;
 }
 footer p{
 font-size:12px;

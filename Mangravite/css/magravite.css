@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	width:900px;
+	width:950px;
 	margin:auto;
 	height:100%;
 	font-family: 'Roboto', sans-serif;
@@ -10,11 +10,11 @@ header {
 	height:170px;
 }
 header img {
-float:right;
-width:50%;
-border:0;
-padding-right:15px;
-margin-top: 52px;
+	float:right;
+	width:50%;
+	border:0;
+	padding-right:15px;
+	margin-top:46px;
 }
 /* main navigation bar */
 #navigation {
@@ -59,6 +59,11 @@ margin-top: 52px;
 	text-decoration:none;
 	color:#7d8e9a;
 }
+#secondnav a.city {
+	font-size: 30px;
+	color:#ffcc33;
+	vertical-align:top;
+}
 #secondnav ul {
 	margin:0;
 	padding:0;
@@ -68,24 +73,19 @@ margin-top: 52px;
 	display:inline;
 	padding-right:10px;
 }
-#secondnav a.city {
-	font-size: 30px;
-	color:#ffcc33;
-	vertical-align:top;
-}
 /* body background */
 #order{
-	margin-top:15px;
+	margin-top:20px;
 }
 #blue{
 	position: absolute;
 	z-index:-1;	
-	width:900px;
+	width:950px;
 	background:#274257 url(http://wasahockey.github.io/Mangravite/images/tile.gif) repeat-x;
 }
 /* text boxes */
 #content {
-	width: 65%;
+	width: 67%;
 	background-color:#FFFFFF;
 	float:right;
 	margin-right:10px;
@@ -99,17 +99,35 @@ margin-top: 52px;
 	padding: 10px;
 }
 /*image box*/
-.photos {
-	width:30%;
-	float:left;
-	margin-left:20px;
-	margin-top: 60px;
-}
 .photosmain {
 	width:20%;
 	float:left;
 	margin-left:20px;
 	margin-top: 60px;
+	text-align:center;
+}
+.photosmain p {
+	color:#CCCC99;
+	font-size:10px;
+}
+.photosmain a{
+	text-decoration:none;
+	color:#FFCC33;
+}
+.photos {
+	width:30%;
+	float:left;
+	margin-left:20px;
+	margin-top: 60px;
+	text-align:center;
+}
+.photos p {
+	color:#CCCC99;
+	font-size:10px;
+}
+.photos a{
+	text-decoration:none;
+	color:#FFCC33;
 }
 /* copy */
 p {
@@ -118,15 +136,15 @@ line-height:1.5em;
 font-size:14px;
 }
 img {
-width:90%;
-border:thin solid #FFCC33;
+	width:90%;
+	border:thin solid #FFCC33;
 }
 h1 {
 text-transform:uppercase;
 font-weight:500;
 color:#ffcc33;
-padding-top:0;
 margin:0;
+margin-top:-18px;
 }
 h2 {
 text-transform:uppercase;
@@ -144,33 +162,23 @@ margin:0;
 #contentSub ul{
 font-size:14px;
 line-height:2em;
-padding-left:10px;
-list-style:none;
+padding-left:15px;
+list-style: none;
 }
-/*figure*/
-figure {
-margin:0;
+#contentSub li{
+    padding-left: 2px; 
+    text-indent: -.7em;
 }
-figcaption {
-color:#CCCC99;
-text-align:center;
+#contentSub li:before {
+	content:"\2609  ";
+	font-size: 16px;
+    color: #FFCC33;
 }
-figcaption p{
-font-size:10px;
-}
-figcaption a{
-text-decoration:none;
-color:#FFCC33;
-}
-/*footnote*/
-
 /* footer */
-#footer {
+footer {
 	background-color:#8F6048;
 	height:100px;
-	position: fixed;
-	bottom: 0;
-	clear:both;
+	margin-top:15px;
 }
 footer p{
 font-size:12px;

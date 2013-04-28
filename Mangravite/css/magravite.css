@@ -232,6 +232,11 @@ blockquote {
 padding-bottom:15px;
 padding-left:10px;
 }
+#footnote h3 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:300;
+	margin-left: 0;
+}
 /* footer */
 footer {
 	background-color:#8F6048;

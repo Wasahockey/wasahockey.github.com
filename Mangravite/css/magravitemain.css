@@ -44,41 +44,16 @@ header img {
 	padding: 6px 10px 5px 10px;
 	font-weight:bold;
 }
-/* second level of navigation */
-#secondnav {
-	margin:0px;
-	height:27px;
-	text-transform:uppercase;
-	padding-left:8px;
-	padding-top:5px;
-}
-#secondnav a {
-	text-decoration:none;
-	color:#7d8e9a;
-}
-#secondnav a.city {
-	font-size: 30px;
-	color:#ffcc33;
-	vertical-align:top;
-}
-#secondnav ul {
-	margin:0;
-	padding:0;
-}
-#secondnav li {
-	list-style-type:none;
-	display:inline;
-	padding-right:10px;
-}
 /* body background */
 #order{
-	margin-top:20px;
+	margin-top:40px;
 }
 #blue{
 	position: absolute;
 	z-index:-1;	
 	width:950px;
 	background:#274257 url(http://wasahockey.github.io/Mangravite/images/tile.gif) repeat-x;
+	min-height:800px;
 }
 /* text boxes */
 #content {
@@ -87,27 +62,6 @@ header img {
 	float:right;
 	margin-right:10px;
 	padding:10px;
-}
-#contentSub {
-	width: 60%;
-	background-color:#FFFFFF;
-	float:right;
-	margin-right:20px;
-	padding: 10px;
-	min-height:400px;
-	font-size:12px;
-}
-#contentSub a {
-text-decoration:none;
-color: #274257;
-}
-#contentSub h3 a {
-text-decoration:none;
-color: #274257;
-font-weight:bold;
-}
-#contentSub h3 a:hover {
-color:#ffcc33;
 }
 /*image box*/
 .photosmain {
@@ -125,32 +79,6 @@ color:#ffcc33;
 	text-decoration:none;
 	color:#FFCC33;
 }
-.photos {
-	width:30%;
-	float:left;
-	margin-left:20px;
-	margin-top: 60px;
-	text-align:center;
-}
-.photos p {
-	color:#CCCC99;
-	font-size:10px;
-}
-.photos a{
-	text-decoration:none;
-	color:#FFCC33;
-}
-.insert { 
-	width:50%;
-	float:left;
-	margin-left:-150px;
-	margin-right: 10px;
-	border: #7d8e9a thick solid;
-	background-color:#CCCC99;
-	padding:10px;
-}
-.insert p {
-font-size:10px;}
 /* copy */
 p {
 font-family: 'Noto Sans', sans-serif;

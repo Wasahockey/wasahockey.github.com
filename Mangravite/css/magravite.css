@@ -100,6 +100,18 @@ header img {
 	min-height:400px;
 	font-size:12px;
 }
+#contentSub a {
+text-decoration:none;
+color: #274257;
+}
+#contentSub h3 a {
+text-decoration:none;
+color: #274257;
+font-weight:bold;
+}
+#contentSub h3 a:hover {
+color:#ffcc33;
+}
 /*image box*/
 .photosmain {
 	width:20%;

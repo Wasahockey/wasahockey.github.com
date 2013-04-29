@@ -44,35 +44,13 @@ header img { /*places the logo on the header*/
 	padding: 6px 10px 5px 10px;
 	font-weight:bold;
 }
-/* second level of navigation */
-#secondnav {
-	margin:0px;
-	height:27px;
-	text-transform:uppercase;
-	padding-left:8px;
-	padding-top:5px;
-}
-#secondnav a {
-	text-decoration:none;
-	color:#7d8e9a;
-}
-#secondnav a.city {
-	font-size: 30px;
-	color:#ffcc33;
-	vertical-align:top;
-}
-#secondnav ul {
-	margin:0;
-	padding:0;
-}
-#secondnav li {
-	list-style-type:none;
-	display:inline;
-	padding-right:10px;
+img {
+	width:90%;
+	border:thin solid #FFCC33;
 }
 /* body background */
 #order{ /*div that contains everything other than the header, navigation and footer*/
-	margin-top:20px;
+	margin-top:40px;
 }
 #blue{ /*the blue background*/
 	position: absolute;
@@ -81,94 +59,59 @@ header img { /*places the logo on the header*/
 	background:#274257 url(http://wasahockey.github.io/Mangravite/images/tile.gif) repeat-x;
 }
 /* text boxes */
-#contentSub {
-	width: 60%;
+#content {
+	width: 67%;
 	background-color:#FFFFFF;
 	float:right;
-	margin-right:20px;
-	padding: 10px;
-	min-height:400px;
-	font-size:12px;
-}
-#contentSub a {
-text-decoration:none;
-color: #274257;
-}
-#contentSub h3 a {
-text-decoration:none;
-color: #274257;
-font-weight:bold;
-}
-#contentSub h3 a:hover {
-color:#ffcc33;
+	margin-right:10px;
+	padding:10px;
 }
 /*image box*/
-.photos {
-	width:30%;
+.photosmain {
+	width:25%;
 	float:left;
 	margin-left:20px;
 	margin-top: 60px;
 	text-align:center;
 }
-.photos p {
+.photosmain p {
 	color:#CCCC99;
 	font-size:10px;
 }
-.photos a{
+.photosmain a{
 	text-decoration:none;
 	color:#FFCC33;
 }
-.insert { 
-	width:50%;
-	float:left;
-	margin-left:-150px;
-	margin-right: 10px;
-	border: #7d8e9a thick solid;
-	background-color:#CCCC99;
-	padding:10px;
-}
-.insert p {
-font-size:10px;}
-/* copy */
+/*copy elements*/
 p {
-font-family: 'Noto Sans', sans-serif;
-line-height:1.5em;
-font-size:14px;
+	font-family: 'Noto Sans', sans-serif;
+	line-height:1.5em;
+	font-size:14px;
 }
 img {
 	width:90%;
 	border:thin solid #FFCC33;
 }
 h1 {
-text-transform:uppercase;
-font-weight:500;
-color:#ffcc33;
-margin:0;
-margin-top:-18px;
+	text-transform:uppercase;
+	font-weight:500;
+	color:#ffcc33;
+	margin:0;
+	margin-top:-18px;
 }
 h2 {
-text-transform:uppercase;
-font-weight:normal;
-color:#274257;
-padding-top:0;
-margin-bottom:-10px;
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#274257;
+	padding-top:0;
+	margin-bottom:-10px;
 }
 h3 {
-text-transform:uppercase;
-font-weight:normal;
-color:#274257;
-font-weight:300;
-margin:0;
-}
-#contentSub ul{
-font-size:14px;
-line-height:2em;
-padding-left:15px;
-list-style: none;
-}
-#contentSub li{
-    padding-left: 2px; 
-    text-indent: -.7em;
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#274257;
+	font-weight:300;
+	margin:0;
 }
 sup {
 	vertical-align: top;
@@ -204,13 +147,13 @@ blockquote {
 	padding-left:8px;
 }      
 #footnote li {
-padding-bottom:15px;
-padding-left:10px;
+	padding-bottom:15px;
+	padding-left:10px;
 }
 #footnote h3 {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:300;
-	margin-left: 0;
+	margin-left: 20px;
 }
 /* footer */
 footer {
@@ -219,8 +162,8 @@ footer {
 	margin-top:15px;
 }
 footer p{
-font-size:12px;
-color:#CCCC99;
-text-align:center;
-padding:15px;
+	font-size:12px;
+	color:#CCCC99;
+	text-align:center;
+	padding:15px;
 }

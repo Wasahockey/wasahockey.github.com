@@ -197,12 +197,12 @@ blockquote {
 }
 #footnote ol { 
 	font-family:'Noto Sans', sans-serif; 
-	font-size:24px; 
-	color:ffcc33;
+	font-size:18px;
 	}
 #footnote ol li {
-	padding-bottom:15px;
-	padding-left:10px; 
+	padding-bottom:5px;
+	color:ffcc33;
+	text-indent: 0;
 	}
 #footnote ol li p {
 	color:black;

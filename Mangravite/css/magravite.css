@@ -195,6 +195,18 @@ blockquote {
 	font-size:14px;
 	margin-left: -20px;
 }
+#footnote ol { 
+	font-family:'Noto Sans', sans-serif; 
+	font-size:24px; 
+	color:ffcc33;
+	}
+#footnote ol li {
+	padding-bottom:15px;
+	padding-left:10px; 
+	}
+#footnote ol li p {
+	color:black;
+	}
 #footnote a{
 	text-decoration:none;
 	color:#ffcc33;
@@ -203,14 +215,10 @@ blockquote {
 	top: -0.2em;
 	padding-left:8px;
 }      
-#footnote li {
-padding-bottom:15px;
-padding-left:10px;
-}
 #footnote h3 {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:300;
-	margin-left: 0;
+	margin-left: 20px;
 }
 /* footer */
 footer {

@@ -127,10 +127,13 @@ header img { /*places the logo on the header*/
 	border: #7d8e9a thick solid;
 	background-color:#CCCC99;
 	padding-top:10px;
+	text-align:center;
 }
 .insert p {
 	font-size:10px;
-	text-align:center;}
+	text-align:center;
+	padding: 0 5px 0 5px;
+	}
 /* copy */
 p {
 font-family: 'Noto Sans', sans-serif;
@@ -178,36 +181,38 @@ sup {
 	top: -0.4em;
 	font-size:11px;
 	}
-sup a{
-	color: #ffcc33;
+#contentSub sup a{
+	color: #FFCC33;
 	font-weight:bold;
 	text-decoration:none;
 	}
 blockquote {
-	margin:25px;
-	font-family: 'Noto Sans', sans-serif;
+	margin: 25px 35px 25px 35px;
+	font-family: 'Roboto', sans-serif;
 	font-variant:small-caps;
 	text-align:center;
 	font-size:16px;
 	color:#8F6048;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top:#FFCC33 thin solid; 
+	border-bottom:#FFCC33 thin solid; 
 	}
 /*footnote*/
-
 hr{
 	border: none;
     background-color: #ffcc33;
     color: #ffcc33; height: 1px;
 }
 #footnote {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-left: -15px;
 }
 #footnote ol { 
-	font-family:'Noto Sans', sans-serif; 
+	font-family:'Roboto', sans-serif; 
 	font-size:16px;
 	}
 #footnote ol li {
-	padding-bottom:5px;
 	color:#ffcc33;
 	text-indent: 0;
 	}
@@ -220,15 +225,14 @@ hr{
 	text-decoration:none;
 	color:#ffcc33;
 	font-size:16px;
-
 	vertical-align: top;
 	position: relative; 
 	top: -0.2em;
 	padding-left:8px;
 }      
 #footnote h3 {
-	font-family: 'Noto Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
 	margin-left: 20px;
 	margin-top:15px;
 }

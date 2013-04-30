@@ -158,8 +158,9 @@ blockquote {
 /* footer */
 footer {
 	background-color:#8F6048;
-	height:100px;
+	height:50px;
 	margin-top:15px;
+	margin-bottom:20px;
 }
 footer p{
 	font-size:12px;

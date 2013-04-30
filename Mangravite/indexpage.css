@@ -157,14 +157,15 @@ blockquote {
 }
 /* footer */
 footer {
-	background-color:#8F6048;
+	background-color: #7d8e9a;
 	height:50px;
 	margin-top:15px;
 	margin-bottom:20px;
+	border-top: 2px solid #8F6048;	
 }
 footer p{
 	font-size:12px;
 	color:#CCCC99;
 	text-align:center;
-	padding:15px;
+	padding:5px;
 }

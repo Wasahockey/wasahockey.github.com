@@ -119,6 +119,7 @@ color:#ffcc33;
 	color:#FFCC33;
 }
 .insert { 
+	overflow:hidden;
 	width:50%;
 	float:left;
 	margin-left:-150px;

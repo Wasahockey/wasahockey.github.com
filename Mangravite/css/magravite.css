@@ -119,10 +119,9 @@ color:#ffcc33;
 	color:#FFCC33;
 }
 .insert { 
-	overflow: inherit;
 	width:50%;
 	float:left;
-	margin-left:-150px;
+	margin-left:-20px;
 	margin-right: 10px;
 	border: #7d8e9a thick solid;
 	background-color:#CCCC99;

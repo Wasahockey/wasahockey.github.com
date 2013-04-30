@@ -53,8 +53,8 @@ img {
 	margin-top:40px;
 }
 #blue{ /*the blue background*/
-	position: absolute;
-	z-index:-1;	
+	overflow:hidden;
+	zoom:1;
 	width:950px;
 	background:#274257 url(http://wasahockey.github.io/Mangravite/images/tile.gif) repeat-x;
 }

@@ -91,16 +91,16 @@ header img { /*places the logo on the header*/
 	font-size:12px;
 }
 #contentSub a {
-text-decoration:none;
-color: #274257;
+	text-decoration:none;
+	color: #274257;
 }
 #contentSub h3 a {
-text-decoration:none;
-color: #274257;
-font-weight:bold;
+	text-decoration:none;
+	color: #274257;
+	font-weight:bold;
 }
 #contentSub h3 a:hover {
-color:#ffcc33;
+	color:#ffcc33;
 }
 /*image box*/
 .photos {
@@ -113,6 +113,7 @@ color:#ffcc33;
 .photos p {
 	color:#CCCC99;
 	font-size:10px;
+	margin-bottom:40px;
 }
 .photos a{
 	text-decoration:none;
@@ -125,10 +126,11 @@ color:#ffcc33;
 	margin-right: 10px;
 	border: #7d8e9a thick solid;
 	background-color:#CCCC99;
-	padding:10px;
+	padding-top:10px;
 }
 .insert p {
-font-size:10px;}
+	font-size:10px;
+	text-align:center;}
 /* copy */
 p {
 font-family: 'Noto Sans', sans-serif;
@@ -154,17 +156,17 @@ padding-top:0;
 margin-bottom:-10px;
 }
 h3 {
-text-transform:uppercase;
-font-weight:normal;
-color:#274257;
-font-weight:300;
-margin:0;
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#274257;
+	font-weight:300;
+	margin:0;
 }
 #contentSub ul{
-font-size:14px;
-line-height:2em;
-padding-left:15px;
-list-style: none;
+	font-size:14px;
+	line-height:2em;
+	padding-left:15px;
+	list-style: none;
 }
 #contentSub li{
     padding-left: 2px; 
@@ -190,26 +192,35 @@ blockquote {
 	color:#8F6048;
 	}
 /*footnote*/
+
+hr{
+	border: none;
+    background-color: #ffcc33;
+    color: #ffcc33; height: 1px;
+}
 #footnote {
 	font-family: 'Noto Sans', sans-serif;
-	font-size:14px;
-	margin-left: -20px;
+	margin-left: -15px;
 }
 #footnote ol { 
 	font-family:'Noto Sans', sans-serif; 
-	font-size:18px;
+	font-size:16px;
 	}
 #footnote ol li {
 	padding-bottom:5px;
-	color:ffcc33;
+	color:#ffcc33;
 	text-indent: 0;
 	}
 #footnote ol li p {
-	color:black;
+	color:#7d8e9a;
+	margin-left:-5px;
+	font-size:12px;
 	}
 #footnote a{
 	text-decoration:none;
 	color:#ffcc33;
+	font-size:16px;
+
 	vertical-align: top;
 	position: relative; 
 	top: -0.2em;
@@ -219,6 +230,7 @@ blockquote {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:300;
 	margin-left: 20px;
+	margin-top:15px;
 }
 /* footer */
 footer {
@@ -235,6 +247,6 @@ footer p{
 	padding:5px;
 }
 footer a{
-text-decoration:none;
-color:#CCCC99;
+	text-decoration:none;
+	color:#CCCC99;
 }

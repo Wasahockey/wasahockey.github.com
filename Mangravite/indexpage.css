@@ -133,27 +133,44 @@ blockquote {
 	color:#8F6048;
 	}
 /*footnote*/
+
+/*footnote*/
+hr{
+	border: none;
+    background-color: #ffcc33;
+    color: #ffcc33; height: 1px;
+}
 #footnote {
-	font-family: 'Noto Sans', sans-serif;
-	font-size:14px;
+	font-family: 'Roboto', sans-serif;
 	margin-left: -20px;
 }
+#footnote ol { 
+	font-family:'Roboto', sans-serif; 
+	font-size:16px;
+	}
+#footnote ol li {
+	color:#ffcc33;
+	text-indent: 0;
+	}
+#footnote ol li p {
+	color:#7d8e9a;
+	margin-left:-5px;
+	font-size:12px;
+	}
 #footnote a{
 	text-decoration:none;
 	color:#ffcc33;
+	font-size:16px;
 	vertical-align: top;
 	position: relative; 
 	top: -0.2em;
 	padding-left:8px;
 }      
-#footnote li {
-	padding-bottom:15px;
-	padding-left:10px;
-}
 #footnote h3 {
-	font-family: 'Noto Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
 	margin-left: 20px;
+	margin-top:15px;
 }
 /* footer */
 footer {

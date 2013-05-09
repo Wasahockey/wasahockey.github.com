@@ -121,9 +121,9 @@ header img { /*places the logo on the header*/
 }
 .insert { 
 	width:50%;
-	float:left;
-	margin-left:-40px;
-	margin-right: 10px;
+	float:right;
+	margin-left:10px;
+	margin-right:-20px;
 	border: #7d8e9a thick solid;
 	background-color:#CCCC99;
 	padding-top:10px;
